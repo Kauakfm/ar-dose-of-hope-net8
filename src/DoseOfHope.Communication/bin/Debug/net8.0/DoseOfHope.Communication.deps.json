@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DoseOfHope.Communication/1.0.0": {
+        "dependencies": {
+          "DoseOfHope.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DoseOfHope.Communication.dll": {}
+        }
+      },
+      "DoseOfHope.Domain/1.0.0": {
+        "runtime": {
+          "DoseOfHope.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoseOfHope.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DoseOfHope.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

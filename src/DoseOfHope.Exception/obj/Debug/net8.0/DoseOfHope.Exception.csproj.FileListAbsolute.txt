@@ -1,0 +1,16 @@
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\bin\Debug\net8.0\DoseOfHope.Exception.deps.json
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\bin\Debug\net8.0\DoseOfHope.Exception.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\bin\Debug\net8.0\DoseOfHope.Exception.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\bin\Debug\net8.0\en-US\DoseOfHope.Exception.resources.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.ResourceErrorMessages.resources
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.ResourceErrorMessages.en-US.resources
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.csproj.GenerateResource.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.AssemblyInfoInputs.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.AssemblyInfo.cs
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.csproj.CoreCompileInputs.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\en-US\DoseOfHope.Exception.resources.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\refint\DoseOfHope.Exception.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\DoseOfHope.Exception.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Exception\obj\Debug\net8.0\ref\DoseOfHope.Exception.dll

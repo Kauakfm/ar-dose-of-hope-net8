@@ -1,0 +1,11 @@
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\bin\Release\net8.0\DoseOfHope.Domain.deps.json
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\bin\Release\net8.0\DoseOfHope.Domain.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\bin\Release\net8.0\DoseOfHope.Domain.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\DoseOfHope.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\DoseOfHope.Domain.AssemblyInfoInputs.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\DoseOfHope.Domain.AssemblyInfo.cs
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\DoseOfHope.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\DoseOfHope.Domain.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\refint\DoseOfHope.Domain.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\DoseOfHope.Domain.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Domain\obj\Release\net8.0\ref\DoseOfHope.Domain.dll

@@ -1,0 +1,15 @@
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\bin\Debug\net8.0\DoseOfHope.Communication.deps.json
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\bin\Debug\net8.0\DoseOfHope.Communication.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\bin\Debug\net8.0\DoseOfHope.Communication.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.AssemblyInfoInputs.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.AssemblyInfo.cs
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.csproj.CoreCompileInputs.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\refint\DoseOfHope.Communication.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\ref\DoseOfHope.Communication.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\bin\Debug\net8.0\DoseOfHope.Domain.dll
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\bin\Debug\net8.0\DoseOfHope.Domain.pdb
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHope.Communication.csproj.AssemblyReference.cache
+C:\Users\Kaua\Documents\PROJETOS-C#\DoseOfHope\DoseOfHope\src\DoseOfHope.Communication\obj\Debug\net8.0\DoseOfHo.F6B67CB6.Up2Date

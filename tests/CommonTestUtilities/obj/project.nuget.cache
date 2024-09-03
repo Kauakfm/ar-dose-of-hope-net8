@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wcAnfFVnfvVAjRN+l3Hq9XU+NfyAt53BFROe5EsCS/XdAcxrs2yJflmDow/OBO+4UrJzar5QKXiMumGWhMOg4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kaua\\Documents\\PROJETOS-C#\\DoseOfHope\\DoseOfHope\\tests\\CommonTestUtilities\\CommonTestUtilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaua\\.nuget\\packages\\bogus\\35.6.0\\bogus.35.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

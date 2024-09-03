@@ -1,0 +1,6 @@
+@DoseOfHope_HostAddress = http://localhost:5299
+
+GET {{DoseOfHope_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

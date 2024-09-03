@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DoseOfHope.Exception/1.0.0": {
+        "runtime": {
+          "DoseOfHope.Exception.dll": {}
+        },
+        "resources": {
+          "en-US/DoseOfHope.Exception.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DoseOfHope.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
