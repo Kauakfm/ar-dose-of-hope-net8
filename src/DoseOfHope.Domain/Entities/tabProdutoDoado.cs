@@ -25,4 +25,11 @@ public class tabProdutoDoado
     public int? dosagem { get; set; }
     public int? qntd { get; set; }
     public DateTime? validade { get; set; }
+    public int? formaFarmaceuticaCodigo { get; set; }
+    public int? adulto_pediatrico { get; set; }
+    public string? dosagemEscrita { get; set; }
+    public string? validadeEscrita { get; set; }
+    public int? necessidadeArmazenamento { get; set; }
+    public string? descricaoDetalhada { get; set; }
+    public long? produtoImagemCodigo { get; set; }
 }

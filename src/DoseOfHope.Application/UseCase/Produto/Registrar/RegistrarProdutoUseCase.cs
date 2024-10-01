@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DoseOfHope.Application.UseCase.Produto.Registrar;
 
-namespace DoseOfHope.Application.UseCase.Produto.Registrar
+public class RegistrarProdutoUseCase
 {
-    public class RegistrarProdutoUseCase
-    {
-    }
 }

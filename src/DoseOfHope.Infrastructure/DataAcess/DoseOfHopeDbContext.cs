@@ -17,5 +17,6 @@ internal class DoseOfHopeDbContext : DbContext
     public DbSet<tabRole_tabPermissions> tabRole_tabPermissions { get; set; }
     public DbSet<tabMensagens> tabMensagens { get; set; }
     public DbSet<tabConversas> tabConversas { get; set; }
+    public DbSet<tabProdutoDoadoImagem> tabProdutoDoadoImagem { get; set; }
    
 }
