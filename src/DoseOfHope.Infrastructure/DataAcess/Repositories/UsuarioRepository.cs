@@ -97,4 +97,14 @@ internal class UsuarioRepository : IUsuariosWriteOnlyRepository, IUsuariosReadOn
 
         return users;
     }
+
+    public async Task<bool> EmailExisteAsync(string email)
+    {
+        return await _dbContext.tabUsuario.AsNoTracking().AnyAsync(usuario => usuario.email.ToUpper() == email.ToUpper());
+    }
+
+    public async Task<bool> CpfExisteAsync(string cpf)
+    {
+        return await _dbContext.tabUsuario.AsNoTracking().AnyAsync(usuario => usuario.cpf == cpf);
+    }
 }

@@ -126,8 +126,17 @@
   <data name="COMPLEMENTO_OBRIGATORIO" xml:space="preserve">
     <value>Complemento é obrigatório</value>
   </data>
+  <data name="CPF_JA_CADASTRADO" xml:space="preserve">
+    <value>Um usuário com este CPF já está cadastrado.</value>
+  </data>
+  <data name="CPF_OBRIGATORIO" xml:space="preserve">
+    <value>CPF é obrigatório</value>
+  </data>
   <data name="DATA_NASCIMENTO_OBRIGATORIO" xml:space="preserve">
     <value>Data nascimento é obrigatório.</value>
+  </data>
+  <data name="EMAIL_JA_CADASTRADO" xml:space="preserve">
+    <value>Um usuário com este e-mail já está cadastrado.</value>
   </data>
   <data name="EMAIL_OBRIGATORIO" xml:space="preserve">
     <value>Email é obrigatório.</value>

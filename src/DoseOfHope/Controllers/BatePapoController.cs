@@ -1,5 +1,4 @@
 ﻿using DoseOfHope.Application.UseCase.BatePapo.BuscarTudo;
-using DoseOfHope.Application.UseCase.Usuario.BucarTudo;
 using DoseOfHope.Communication.Responses;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

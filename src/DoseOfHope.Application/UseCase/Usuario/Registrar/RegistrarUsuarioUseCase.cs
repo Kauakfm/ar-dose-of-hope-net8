@@ -11,6 +11,7 @@ namespace DoseOfHope.Application.UseCase.Usuario.Registrar;
 
 public class RegistrarUsuarioUseCase : IRegistrarUsuarioUseCase
 {
+    private readonly IUsuariosReadOnlyRepository _repositoryReadOnly;
     private readonly IUsuariosWriteOnlyRepository _repositoryUser;
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
@@ -19,16 +20,18 @@ public class RegistrarUsuarioUseCase : IRegistrarUsuarioUseCase
         IUsuariosWriteOnlyRepository usuarioRepository, 
         IUnitOfWork unitOfWork,
         IMapper mapper,
-        IAccessTokenGenerator tokenGenerator)
+        IAccessTokenGenerator tokenGenerator,
+        IUsuariosReadOnlyRepository repositoryReadOnly)
     {
         _repositoryUser = usuarioRepository;
         _unitOfWork = unitOfWork;
         _mapper = mapper;
         _tokenGenerator = tokenGenerator;
+        _repositoryReadOnly = repositoryReadOnly;
     }
     public async Task<ResponseRegistrarUsuarioJson> Executar(RequestUsuarioJson request)
     {
-        Validar(request);
+        await Validar(request); 
 
         var entity = _mapper.Map<tabUsuario>(request);
 
@@ -55,9 +58,9 @@ public class RegistrarUsuarioUseCase : IRegistrarUsuarioUseCase
         };
     }
 
-    private void Validar(RequestUsuarioJson request)
+    private async Task Validar(RequestUsuarioJson request)
     {
-        var response = new UsuarioValidacao().Validate(request);
+        var response = await new UsuarioValidacao(_repositoryReadOnly).ValidateAsync(request);
 
         if (!response.IsValid)
         {

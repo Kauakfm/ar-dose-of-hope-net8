@@ -17,6 +17,10 @@ namespace DoseOfHope.Infrastructure.DataAcess.Repositories
         {
             await _dbContext.tabProdutoDoado.AddAsync(produto);
         }
+        public async Task AddImageProduct(tabProdutoDoadoImagem produto)
+        {
+            await _dbContext.tabProdutoDoadoImagem.AddAsync(produto);
+        }
         public async Task<bool> Delete(int codigo)
         {
             var produto = await _dbContext.tabProdutoDoado.FirstOrDefaultAsync(produto => produto.codigo == codigo);
@@ -57,10 +61,32 @@ namespace DoseOfHope.Infrastructure.DataAcess.Repositories
 
             return product;
         }
-             
+
         public async Task<List<tabProdutoDoado>> GetUsersWhatDonated(List<int> userCodes)
         {
             return await _dbContext.tabProdutoDoado.Where(d => userCodes.Contains(d.usuarioCodigo)).ToListAsync();
+        }
+
+        public async Task<List<tabProdutoDoado>> GetDonationsPutUserCode(int usuarioCodigo)
+        {
+            var result = await _dbContext.tabProdutoDoado.Where(prod => prod.usuarioCodigo == usuarioCodigo)
+                .Include(status => status.statusCodigo)
+                .Include(tipoProduto => tipoProduto.TipoProduto)
+                .Include(formaFarmaceutica => formaFarmaceutica.FormaFarmaceutica)
+                .Include(tipoCondicao => tipoCondicao.TipoCondicao)
+                .Include(tipoNecessidadeArmazenamentoCodigo => tipoNecessidadeArmazenamentoCodigo.TipoNecessidadeArmazenamento)
+                .ToListAsync();
+
+            return result.Select(obj =>
+            {
+                obj.validadeEscrita = DateTime.TryParse(obj.validadeEscrita, out DateTime validade) ? validade.ToString("MM/yyyy") : obj.validadeEscrita;
+                return obj;
+            }).ToList();
+        }
+
+        public async Task<List<tabProdutoDoadoImagem>> GetListCodeImagesProduct(int productCode)
+        {
+            return await _dbContext.tabProdutoDoadoImagem.Where(image => image.produtoCodigo == productCode).ToListAsync();
         }
     }
 }

@@ -33,7 +33,7 @@ public static class DependencyInjectionExtension
         services.AddScoped<IUsuariosWriteOnlyRepository, UsuarioRepository>();
         services.AddScoped<IUsuarioUpdateOnlyRepository, UsuarioRepository>();
 
-        services.AddScoped<IProdutoReadOnlyRepository, ProdutoRepository>();
+        services.AddScoped<IProdutoReadOnlyRepository, ProdutoRepository>();    
         services.AddScoped<IProdutoWriteOnlyRepository, ProdutoRepository>();
         services.AddScoped<IProdutoUpdateOnlyRepository, ProdutoRepository>();
 

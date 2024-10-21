@@ -11,4 +11,8 @@ public interface IUsuariosReadOnlyRepository
     Task<tabUsuario?> GetUserbyEmailAndPassword(string email, string password);
     Task<List<tabUsuario>> GetUserWithRoleTypeUser();
     Task<List<tabUsuario>> GetUsersWithDonationsAndUserTypeRoleUser();
+    Task<bool> EmailExisteAsync(string email);
+    Task<bool> CpfExisteAsync(string cpf);
+
+
 }

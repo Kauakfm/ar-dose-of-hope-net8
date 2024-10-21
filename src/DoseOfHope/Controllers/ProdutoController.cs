@@ -1,5 +1,9 @@
-﻿using DoseOfHope.Application.UseCase.Produto.BuscarTudo;
+﻿using DoseOfHope.Application.Services.Context;
+using DoseOfHope.Application.UseCase.Produto.BuscarTudo;
+using DoseOfHope.Application.UseCase.Produto.Registrar;
+using DoseOfHope.Communication.Requests;
 using DoseOfHope.Communication.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DoseOfHope.Controllers;
@@ -8,7 +12,6 @@ namespace DoseOfHope.Controllers;
 [ApiController]
 public class ProdutoController : ControllerBase
 {
-    
     [HttpGet]
     [ProducesResponseType(typeof(ResponseProdutosJson), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -23,6 +26,30 @@ public class ProdutoController : ControllerBase
             return Ok(response);
 
         return NoContent();
+    }
+
+    [HttpPost]
+    [Authorize]
+    public async Task<IActionResult> InserirProdutoDoado([FromServices] IRegistrarProdutoUseCase useCase,
+        [FromForm] RequestFormularioProdutoJson request,
+        [FromServices] IUserContextService userCodeContext)
+    {
+        var userCode = userCodeContext.GetUserCode();
+
+        var response = await useCase.Executar(request, userCode);
+
+        return Created("", response);
+    }
+    [HttpGet]
+    [Route("ListarTodasDoacoes")]
+    [Authorize]
+    public async Task<IActionResult> ListarTodasAsDoacoesProdutosDoados([FromServices] IBuscarTudoProdutoUseCase useCase,[FromServices] IUserContextService userCodeContext)
+    {
+        var userCode = userCodeContext.GetUserCode();
+
+        var response = await useCase.ListarTodasAsDoacoesProdutosDoados(userCode);
+
+        return Ok(response);
     }
 
 }
