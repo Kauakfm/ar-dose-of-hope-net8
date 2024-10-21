@@ -88,11 +88,38 @@ namespace DoseOfHope.Exception {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Um usuário com este CPF já está cadastrado..
+        /// </summary>
+        public static string CPF_JA_CADASTRADO {
+            get {
+                return ResourceManager.GetString("CPF_JA_CADASTRADO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a CPF é obrigatório.
+        /// </summary>
+        public static string CPF_OBRIGATORIO {
+            get {
+                return ResourceManager.GetString("CPF_OBRIGATORIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Data nascimento é obrigatório..
         /// </summary>
         public static string DATA_NASCIMENTO_OBRIGATORIO {
             get {
                 return ResourceManager.GetString("DATA_NASCIMENTO_OBRIGATORIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Um usuário com este e-mail já está cadastrado..
+        /// </summary>
+        public static string EMAIL_JA_CADASTRADO {
+            get {
+                return ResourceManager.GetString("EMAIL_JA_CADASTRADO", resourceCulture);
             }
         }
         

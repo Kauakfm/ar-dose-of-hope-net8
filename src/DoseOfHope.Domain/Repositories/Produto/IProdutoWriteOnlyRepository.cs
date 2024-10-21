@@ -10,6 +10,7 @@ namespace DoseOfHope.Domain.Repositories.Produto
     public interface IProdutoWriteOnlyRepository
     {
         Task Add(tabProdutoDoado produto);
+        Task AddImageProduct(tabProdutoDoadoImagem produto);
 
         Task<bool> Delete(int codigo);
     }

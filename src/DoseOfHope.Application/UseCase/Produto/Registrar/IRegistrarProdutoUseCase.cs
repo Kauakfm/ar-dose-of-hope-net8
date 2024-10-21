@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DoseOfHope.Communication.Requests;
+using DoseOfHope.Communication.Responses;
 
 namespace DoseOfHope.Application.UseCase.Produto.Registrar
 {
     public interface IRegistrarProdutoUseCase
     {
-
-
+        Task<ResponseRegistrarProdutoJson> Executar(RequestFormularioProdutoJson request, int usuarioCodigo);
     }
 }

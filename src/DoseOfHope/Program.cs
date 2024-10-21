@@ -1,3 +1,4 @@
+using Amazon.S3;
 using DoseOfHope.Application;
 using DoseOfHope.Application.UseCase.BatePapo.SignalR;
 using DoseOfHope.Filtros;
@@ -44,23 +45,15 @@ builder.Services.AddSwaggerGen(config =>
         }
     });
 });
+builder.Services.AddDefaultAWSOptions(builder.Configuration.GetAWSOptions());
+builder.Services.AddAWSService<IAmazonS3>();
 
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
 builder.Services.AddInfraestructure(builder.Configuration);
-builder.Services.AddApplication();
-
-builder.Services.AddAuthorization(options =>
-{
-    options.AddPolicy("User", policy =>
-        policy.RequireClaim("TipoUsuarioCodigo"));
-
-    options.AddPolicy("Admin", policy =>
-        policy.RequireClaim("TipoUsuarioCodigo", "1"));
-});
+builder.Services.AddApplication(builder.Configuration);
 
 builder.Services.AddHttpContextAccessor();
-
 
 var signingKey = builder.Configuration.GetValue<string>("Settings:Jwt:Signingkey");
 
@@ -90,12 +83,12 @@ app.UseMiddleware<CultureMiddleware>();
 
 app.UseHttpsRedirection();
 
+app.UseCors(cors => { cors.AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithOrigins("http://localhost:3000", "http://127.0.0.1:5501"); });
+
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.UseCors(cors => { cors.AllowAnyMethod().AllowAnyHeader().AllowCredentials().WithOrigins("http://localhost:3000"); });
 
 app.MapHub<SignalRBatePapoUseCase>("/chat");
 

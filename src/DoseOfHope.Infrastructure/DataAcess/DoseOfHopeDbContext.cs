@@ -18,5 +18,9 @@ internal class DoseOfHopeDbContext : DbContext
     public DbSet<tabMensagens> tabMensagens { get; set; }
     public DbSet<tabConversas> tabConversas { get; set; }
     public DbSet<tabProdutoDoadoImagem> tabProdutoDoadoImagem { get; set; }
+    public DbSet<tabFormaFarmaceutica> tabFormaFarmaceutica { get; set; }
+    public DbSet<tabTipoCondicao> tabTipoCondicao { get; set; }
+    public DbSet<tabTipoItemProduto> tabTipoItemProduto { get; set; }
+    public DbSet<tabTipoNecessidadeArmazenamento> tabTipoNecessidadeArmazenamento { get; set; }
    
 }

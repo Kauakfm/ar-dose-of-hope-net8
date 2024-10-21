@@ -34,7 +34,7 @@ public class UsuarioController : ControllerBase
     }
 
     [HttpGet]
-    [Authorize(Policy = "Admin")]
+    [Authorize]
     [ProducesResponseType(typeof(ResponseUsuariosJson), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     public async Task<IActionResult> BuscarTodosUsuarios([FromServices] IBuscarTudoUsuarioUseCase useCase)
